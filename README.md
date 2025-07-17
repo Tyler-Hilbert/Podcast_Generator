@@ -1,6 +1,6 @@
-# Podcast Generates
+# Podcast Generator
 Utilizes Llama4 (with Groq API) and Chatterbox to generate a podcast.  
-An example is [here](https://www.youtube.com/watch?v=-oJIJmt62U4)  
+An example is [here](https://www.youtube.com/watch?v=-oJIJmt62U4).  
 # Usage
 ## Step 0 -- Configure  
 1) Setup a Groq account and generate an API key
