@@ -3,7 +3,7 @@ from groq import Groq
 ##### Settings #####
 config = {
 
-'groq_api_key': 'YOUR GROC API KEY',
+'groq_api_key': 'YOUR GROQ API KEY',
 
 'podcast_description': 'Computer History',
 'episode_description': 'The history of Google',
