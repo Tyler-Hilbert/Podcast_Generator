@@ -16,7 +16,10 @@ config = {
 'tts_reference_audio': 'Prompt.wav',
 'tts_audio_output_filename': 'Google_History.wav',
 
-'chatterbox_device': 'cpu'
+'chatterbox_device': 'cpu',
+
+'video_thumbnail': 'Google_2015_logo.svg',
+'video_output_filename': 'Google_History.mp4'
 }
 from types import SimpleNamespace
 config = SimpleNamespace(**config)
