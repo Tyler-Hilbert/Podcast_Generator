@@ -11,8 +11,12 @@ config = {
 'initial_script_output_filename': 'Script_Google.txt',
 'tts_script_output_filename': 'Script_Google_TTS.txt',
 
-'model_name': 'meta-llama/llama-4-maverick-17b-128e-instruct'
+'model_name': 'meta-llama/llama-4-maverick-17b-128e-instruct',
 
+'tts_reference_audio': 'Prompt.wav',
+'tts_audio_output_filename': 'Google_History.wav',
+
+'chatterbox_device': 'cpu'
 }
 from types import SimpleNamespace
 config = SimpleNamespace(**config)
