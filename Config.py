@@ -1,36 +1,37 @@
-from groq import Groq
-
 ##### Settings #####
 config = {
 
 'groq_api_key': 'YOUR GROQ API KEY',
 
 'podcast_description': 'Computer History',
-'episode_description': 'The history of Google',
+'episode_description': 'Python the programming language',
 
-'initial_script_output_filename': 'Script_Google.txt',
-'tts_script_output_filename': 'Script_Google_TTS.txt',
+'initial_script_output_filename': 'Script_Python.txt',
+'tts_script_output_filename': 'Script_Python_TTS.txt',
 
 'model_name': 'meta-llama/llama-4-maverick-17b-128e-instruct',
 
 'tts_reference_audio': 'Prompt.wav',
-'tts_audio_output_filename': 'Google_History.wav',
+'tts_audio_output_filename': 'Python_Programming_Language.wav',
 
 'chatterbox_device': 'cpu',
 
-'video_thumbnail': 'Google_2015_logo.svg',
-'video_output_filename': 'Google_History.mp4'
+'video_thumbnail': 'Python.svg',
+'video_output_filename': 'Python_Programming_Language.mp4'
 }
 from types import SimpleNamespace
 config = SimpleNamespace(**config)
 
 ##### Prompts #####
-prompt_write_podcast_script = f'''
+prompt_system_prompt_write_podcast = f'''
 You're the writer for a podcast on {config.podcast_description}.
-Write a script for a podcast on the {config.episode_description}.
 The podcast is narrated by a single host.
 The tone should be formal.
 Provide background on topics where needed.
+'''
+
+prompt_write_podcast_script = f'''
+Write a script for a podcast on the {config.episode_description}.
 Only reply with the podcast script.
 '''
 
@@ -46,8 +47,3 @@ Only reply with the text to be input into the TTS.
 {podcast_script}
 === End Podcast Script ===
 '''
-
-##### Groq Client #####
-client = Groq(
-    api_key=config.groq_api_key,
-)
