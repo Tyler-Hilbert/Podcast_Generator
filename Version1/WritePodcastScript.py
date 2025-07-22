@@ -25,8 +25,6 @@ podcast_script = chat_completion_podcast_script.choices[0].message.content
 with open(config.initial_script_output_filename, 'w') as f:
     f.write(podcast_script)
 
-# Uncomment the below section for TTS
-'''
 # Process text for TTS
 chat_completion_podcast_tts = client.chat.completions.create(
     messages=[
@@ -43,4 +41,3 @@ podcast_script_tts = chat_completion_podcast_tts.choices[0].message.content
 # Save Podcast TTS to file
 with open(config.tts_script_output_filename, 'w') as f:
     f.write(podcast_script_tts)
-'''
