@@ -9,7 +9,7 @@ Version 1 generates the script using Llama 4, audio using Chatterbox, and option
 * MoviePy
 
 ## Version 2
-Version 2 uses two Llama 4 agents to generate the script. One agent generates the outline and agent two generates the text for each section.
+Version 2 uses two Llama 4 agents to generate the script. One agent generates the outline and the second agent (which multiple times) generates the text for each section.
 ### Tools
 * llama-4-maverick-17b-128e-instruct
 * Groq
