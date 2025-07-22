@@ -3,9 +3,7 @@ from groq import Groq
 
 def main():
     # Groq client
-    client = Groq(
-        api_key=config.groq_api_key,
-    )
+    client = Groq(api_key=config.groq_api_key)
     
     # Generate outline
     generate_outline(

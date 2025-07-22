@@ -6,9 +6,7 @@ from Config import create_tts_conversion_prompt
 from groq import Groq
 
 # Groq client
-client = Groq(
-    api_key=config.groq_api_key,
-)
+client = Groq(api_key=config.groq_api_key)
 
 # Generate podcast script
 chat_completion_podcast_script = client.chat.completions.create(
