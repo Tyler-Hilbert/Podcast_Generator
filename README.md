@@ -13,3 +13,8 @@ Version 2 uses two Llama 4 agents to generate the script. One agent generates th
 ### Tools
 * llama-4-maverick-17b-128e-instruct
 * Groq
+
+## Version 3
+Version 3 uses Gemini 2.5 to generate a podcast script.
+### Tools
+* gemini-2.5-flash
