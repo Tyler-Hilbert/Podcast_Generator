@@ -64,4 +64,4 @@ def load_wikipedia_page(page_title):
         exit()
 
 if __name__ == '__main__':
-        main()
+    main()
