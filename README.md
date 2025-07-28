@@ -36,3 +36,10 @@ Version 7 uses Gemini 2.5 and includes the contents of relevant Wikipedia Pages 
 ### Technologies
 * gemini-2.5-flash
 * Wikipedia
+
+## Version 8
+Version 8 uses Gemini 2.5 to generate an initial podcast script.  
+It then iterates over each Wikipedia page, revising the script one page at a time.
+### Technologies
+* gemini-2.5-flash
+* Wikipedia
