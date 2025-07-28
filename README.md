@@ -27,3 +27,12 @@ Version 5 uses Gemini 2.5 and includes the contents of relevant Wikipedia Pages 
 ### Technologies
 * gemini-2.5-flash
 * Wikipedia
+
+## Version 6
+Version 6 is not available.
+
+## Version 7
+Version 7 uses Gemini 2.5 and includes the contents of relevant Wikipedia Pages to revise an existing script.
+### Technologies
+* gemini-2.5-flash
+* Wikipedia
