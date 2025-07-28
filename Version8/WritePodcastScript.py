@@ -12,7 +12,7 @@ def main():
     # Generate initial podcast script
     generate_initial_script(client)
 
-    # Refine podcast script
+    # Revise podcast script
     for revision_num, wikipedia_page_title in enumerate(config.wikipedia_pages):
         revise_podcast_script(revision_num, client, wikipedia_page_title)
 
@@ -70,7 +70,7 @@ def revise_podcast_script(revision_num, client, wikipedia_page_title):
         f"\n{wikipedia_prompt_data}"
     )
 
-    # Generate podcast script
+    # Generate revised podcast script
     response = client.models.generate_content(
         model=config.model_name,
         contents=prompt
@@ -95,7 +95,8 @@ def load_podcast_script(filename):
     return podcast_script_prompt_data
 
 # Returns string of page contents of page title (must be the same as the Wikipedia URL)
-#   or quits if exception
+#   or quits if exception.
+#   String of page contents is encolsed in Begin and End tags.
 def load_wikipedia_page(page_title):
     plain_text_content = f'\n||Begin Wikipedia Page {page_title}||\n'
     api_url = f"https://en.wikipedia.org/w/api.php?action=query&titles={page_title}&prop=extracts&explaintext=true&format=json"
