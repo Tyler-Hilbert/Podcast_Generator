@@ -43,3 +43,10 @@ It then iterates over each Wikipedia page, revising the script one page at a tim
 ### Technologies
 * gemini-2.5-flash
 * Wikipedia
+
+## Version 9
+Version 9 uses Gemini 2.5 with a main Wikipedia page to generate an initial podcast script.  
+It then iterates over the support Wikipedia page, revising the script one page at a time.
+### Technologies
+* gemini-2.5-flash
+* Wikipedia
