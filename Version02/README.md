@@ -2,7 +2,7 @@
 Utilizes Llama 4 (with Groq API) to generate a podcast script.  
 One agent generates an outline while a second agent generates each section from the outline.  
 ## Usage
-(Note all steps need to be run within the `Version2` dir)
+(Note all steps need to be run within the `Version02` dir)
 ### Step 0 -- Config
 Add your GROQ API key to the variable `groq_api_key` in `Config.py`
 ### Step 1 -- Generate podcast script
