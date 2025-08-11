@@ -1,12 +1,12 @@
 # Podcast Generator
 Generates a podcast on a topic
 ## Version 1
-Version 1 generates the script using Llama 4, audio using Chatterbox, and optionally a video from an SVG.
+Version 1 generates the script using Llama 4, audio using `Chatterbox`, and optionally a video from an SVG.
 ### Technologies
 * llama-4-maverick-17b-128e-instruct
 * Groq
-* Chatterbox
-* MoviePy
+* [Chatterbox](https://github.com/resemble-ai/chatterbox)
+* [MoviePy](https://github.com/Zulko/moviepy)
 
 ## Version 2
 Version 2 uses two Llama 4 agents to generate the script. One agent generates the outline and the second agent (which multiple times) generates the text for each section.
@@ -50,3 +50,9 @@ It then iterates over the support Wikipedia page, revising the script one page a
 ### Technologies
 * gemini-2.5-flash
 * Wikipedia
+
+## Version 10
+Version 10 Uses Gemini 2.5 and 3 relevant wikipedia pages to generate a podcast. The Wikipedia pages are read in using `wikipedia-mcp`.
+### Technologies
+* gemini-2.5-flash
+* [Wikipedia MCP](https://github.com/Rudra-ravi/wikipedia-mcp)
