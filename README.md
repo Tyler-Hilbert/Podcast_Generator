@@ -2,7 +2,7 @@
 Generates a podcast on a topic
 
 ## Version 10
-Version 10 Uses Gemini 2.5 and 3 relevant wikipedia pages to generate a podcast. The Wikipedia pages are read in using wikipedia-mcp.
+Version 10 uses Gemini 2.5 and 3 relevant wikipedia pages to generate a podcast. The Wikipedia pages are read in using wikipedia-mcp.
 ### Technologies
 * gemini-2.5-flash
 * [Wikipedia MCP](https://github.com/Rudra-ravi/wikipedia-mcp)
