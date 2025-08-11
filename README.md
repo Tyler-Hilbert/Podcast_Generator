@@ -5,7 +5,7 @@ Generates a podcast on a topic
 Version 10 uses Gemini 2.5 and 3 relevant wikipedia pages to generate a podcast. The Wikipedia pages are read in using wikipedia-mcp.
 ### Technologies
 * gemini-2.5-pro
-* [Wikipedia MCP](https://github.com/Rudra-ravi/wikipedia-mcp)
+* Wikipedia MCP
 
 ## Version 9
 Version 9 uses Gemini 2.5 with a main Wikipedia page to generate an initial podcast script.  
@@ -55,5 +55,5 @@ Version 1 generates the script using Llama 4, audio using `Chatterbox`, and opti
 ### Technologies
 * llama-4-maverick-17b-128e-instruct
 * Groq
-* [Chatterbox](https://github.com/resemble-ai/chatterbox)
-* [MoviePy](https://github.com/Zulko/moviepy)
+* Chatterbox
+* MoviePy

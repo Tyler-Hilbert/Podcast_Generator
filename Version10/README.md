@@ -1,5 +1,5 @@
 # Podcast Generator (Version 10)
-Uses Gemini 2.5 and 3 relevant wikipedia pages to generate a podcast. The Wikipedia pages are read in using [Wikipedia MCP](https://github.com/Rudra-ravi/wikipedia-mcp).
+Uses Gemini 2.5 and 3 relevant wikipedia pages to generate a podcast. The Wikipedia pages are read in using Wikipedia MCP.
 ## Usage
 (Note all steps need to be run within the `Version10` dir)
 ### Step 0 -- Config
