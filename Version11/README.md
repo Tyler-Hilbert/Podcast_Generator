@@ -5,17 +5,17 @@ Then GPT-5 converts the transcript to its phonetic pronunciation.
 Then generates audio using Chatterbox and video using MoviePy.  
 ## Usage
 (Note all steps need to be run within the `Version11` dir)
-### Step 0 -- Config
+### Config
 Add your Gemini API key to the variable `gemini_api_key` in `Config.py`.  
 Update `wikipedia_mcp_url_with_key` in `Config.py` to include your API Key (you need to create a Smithery.ai account and click "Get URL with keys instead").  
 Add your OpenAI API key to the variable `openai_api_key` in `Config.py`.  
-### Step 1 -- Generate Podcast Script
+### Generate Podcast Script
 `$python GenerateInitialPodcast.py`
-### Step 2 -- Revise Podcast Script
+### Revise Podcast Script
 `$python RevisePodcastScript.py`
-### Step 3 -- Convert Transcript to Phonetic Pronunciation
+### Convert Transcript to Phonetic Pronunciation
 `$python ConvertPodcastScriptToPhoneticPronunciation.py`
-### Step 4 -- Generate Audio
+### Generate Audio
 `$python GenerateAudio.py`
-### Step 5 -- Generate Video (optional)
+### Generate Video (optional)
 `$python GenerateVideo.py`
