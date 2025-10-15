@@ -6,24 +6,24 @@ config = {
     'openai_api_key': 'YOUR_OPENAI_API_KEY',
     'openai_model_name': 'gpt-5-mini',
 
-    'episode_topic': 'the history of the Amazon Web Services',
+    'episode_topic': 'YOUR_EPISODE_TOPIC',
 
-    'initial_podcast_script_filename': 'AWS_Script_Initial.txt',
-    'initial_podcast_log_filename': 'AWS_log.txt',
+    'initial_podcast_script_filename': 'YOUR_EPISODE_TOPIC_Script_Initial.txt',
+    'initial_podcast_log_filename': 'YOUR_EPISODE_TOPIC_log.txt',
 
-    'revised_podcast_script_filename': 'AWS_Script_Revised.txt',
-    'revised_podcast_log_filename': 'AWS_revision_log.txt',
+    'revised_podcast_script_filename': 'YOUR_EPISODE_TOPIC_Script_Revised.txt',
+    'revised_podcast_log_filename': 'YOUR_EPISODE_TOPIC_revision_log.txt',
 
-    'tts_podcast_script_filename': 'AWS_Script_TTS.txt',
+    'tts_podcast_script_filename': 'YOUR_EPISODE_TOPIC_Script_TTS.txt',
 
-    'tts_reference_audio': 'Prompt.wav',
-    'tts_audio_output_filename': 'AWS_History.wav',
+    'tts_reference_audio': 'YOUR_PROMPT.wav',
+    'tts_audio_output_filename': 'YOUR_EPISODE_TOPIC_History.wav',
 
     'chatterbox_device': 'cpu',
 
-    'video_thumbnail_svg': 'Amazon_Web_Services_Logo.svg',
-    'background_music_mp3': 'Mesmerizing Galaxy Loop.mp3',
-    'video_output_path': 'AWS_History.mp4'
+    'video_thumbnail_svg': 'YOUR_EPISODE_TOPIC_Logo.svg',
+    'background_music_mp3': 'YOUR_BACKGROUND_MUSIC.mp3',
+    'video_output_path': 'YOUR_EPISODE_TOPIC_History.mp4'
 }
 
 from types import SimpleNamespace

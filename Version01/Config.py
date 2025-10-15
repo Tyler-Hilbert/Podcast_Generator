@@ -3,21 +3,21 @@ config = {
 
 'groq_api_key': 'YOUR GROQ API KEY',
 
-'podcast_description': 'Computer History',
-'episode_description': 'Python the programming language',
+'podcast_description': 'YOUR_PODCAST_NAME',
+'episode_description': 'YOUR_EPISODE_TOPIC',
 
-'initial_script_output_filename': 'Script_Python.txt',
-'tts_script_output_filename': 'Script_Python_TTS.txt',
+'initial_script_output_filename': 'Script_YOUR_EPISODE_TOPIC.txt',
+'tts_script_output_filename': 'Script_YOUR_EPISODE_TOPIC_TTS.txt',
 
 'model_name': 'meta-llama/llama-4-maverick-17b-128e-instruct',
 
-'tts_reference_audio': 'Prompt.wav',
-'tts_audio_output_filename': 'Python_Programming_Language.wav',
+'tts_reference_audio': 'YOUR_PROMPT.wav',
+'tts_audio_output_filename': 'YOUR_EPISODE_TOPIC.wav',
 
-'chatterbox_device': 'cpu',
+'chatterbox_device': 'YOUR_GPU_OR_CPU',
 
-'video_thumbnail': 'Python.svg',
-'video_output_filename': 'Python_Programming_Language.mp4'
+'video_thumbnail': 'YOUR_EPISODE_TOPIC_LOGO.svg',
+'video_output_filename': 'YOUR_EPISODE_TOPIC.mp4'
 }
 from types import SimpleNamespace
 config = SimpleNamespace(**config)

@@ -3,15 +3,15 @@ config = {
     'gemini_api_key': 'YOUR_GEMINI_API_KEY',
     'model_name': 'gemini-2.5-flash',
 
-    'podcast_topic': 'Computer History',
-    'episode_topic': 'History of the Amazon Web Services',
-    'podcast_script_filename_base': 'AWS_Podcast_Script',
+    'podcast_topic': 'YOUR_PODCAST_NAME',
+    'episode_topic': 'YOUR_EPISODE_TOPIC',
+    'podcast_script_filename_base': 'YOUR_EPISODE_TOPIC_Podcast_Script',
 
-    'main_wikipedia_page': 'Amazon_Web_Services',
+    'main_wikipedia_page': 'WIKIPEDIA_PAGE_FOR_YOUR_TOPIC',
     'support_wikipedia_pages': [
-        'Amazon_(company)',
-        'Web_service',
-        'Cloud_computing'
+        'WIKIPEDIA_PAGE_RELATED_TO_YOUR_TOPIC',
+        'WIKIPEDIA_PAGE_RELATED_TO_YOUR_TOPIC',
+        'WIKIPEDIA_PAGE_RELATED_TO_YOUR_TOPIC'
     ]
 }
 
