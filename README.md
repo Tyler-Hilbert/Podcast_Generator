@@ -7,8 +7,6 @@ The latest — [Version 11](https://github.com/Tyler-Hilbert/Podcast_Generator/t
 3) Converting to phonetic text for natural narration with GPT-5  
 4) Producing audio (Chatterbox) and optional video (MoviePy)  
 
-🎧 Listen & watch: [YouTube Playlist of Podcast Experiments](https://www.youtube.com/watch?v=sdhJRYy11RU&list=PLEfjXkzTCaddmlzJvwTuZ35LIOPvrRRih)  
-
 ## Version 11
 [Version 11](https://github.com/Tyler-Hilbert/Podcast_Generator/tree/main/Version11) uses Gemini 2.5 and 3 relevant wikipedia pages to generate a podcast. The Wikipedia pages are read in using Wikipedia MCP.  
 Then uses GPT-5-mini to edit any mistakes (also using 3 pages from wikipedia-mcp).  
