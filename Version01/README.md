@@ -1,6 +1,5 @@
 # Podcast Generator (Version 1)
 Utilizes Llama 4 (with Groq API) and Chatterbox to generate a podcast with option to generate a still image video.  
-An example is [here](https://www.youtube.com/watch?v=-oJIJmt62U4).  
 # Usage
 (Note all steps need to be run within the `Version01` dir)
 ## Configure  
